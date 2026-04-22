@@ -40,13 +40,12 @@ while not hecho:
 
     # -------------------------------------------------------
     # 3) DIBUJA AQUÍ TUS FIGURAS
-    pygame.draw.rect(pantalla, AMARILLO, [200, 150, 200, 200], 0)
-    pygame.draw.rect(pantalla, VERDE, [220, 170, 75, 75], 0)
-    pygame.draw.rect(pantalla, AZUL, [310, 200, 75, 150], 0)
-    pygame.draw.line(pantalla, NEGRO, [310, 350], [350, 450], 2)
-    pygame.draw.line(pantalla, NEGRO, [385, 350], [425, 450], 2)
-    pygame.draw.line(pantalla, NEGRO, [100, 450], [600, 450], 2)
-    pygame.draw.polygon(pantalla, VERDE, [[300, 20], [150, 150], [450, 150]], 0)
+    pygame.draw.rect(pantalla, AMARILLO, [250, 200, 250, 250], 0)
+    pygame.draw.rect(pantalla, VERDE, [270, 220, 125, 125], 0)
+    pygame.draw.rect(pantalla, AZUL, [400, 250, 75, 200], 0)
+    pygame.draw.line(pantalla, NEGRO, [360, 400], [400, 525], 2)
+    pygame.draw.line(pantalla, NEGRO, [435, 400], [475, 500], 2)
+    pygame.draw.polygon(pantalla, VERDE, [[350, 70], [200, 200], [500, 200]], 0)
     # -------------------------------------------------------
 
    # Línea: pygame.draw.line(pantalla, color, [x1, y1], [x2, y2], grosor)
